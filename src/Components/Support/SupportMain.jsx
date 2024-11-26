@@ -7,11 +7,11 @@ import Loans from '../DashboardBody/Loans';
 const SupportMain = () => {
   return (
     <>
-       <div className="flex flex-col lg:flex-row  justify-center gap-10 mt-10">
+       <div className="flex flex-col lg:flex-row  justify-center  gap-10 mt-10 ">
         <div className='w-[386px] '>
             <SupportCard icon={<FaMessage />} title="Contact us" text='Have a question or just want to know more? Feel free to reach out to us.'/>
         </div>
-        <div className='w-[550px] bg-white p-6 rounded-md'>
+        <div className=' w-auto bg-white p-6 rounded-md flex items-center justify-center'>
              <Form/>
         </div>
        </div>

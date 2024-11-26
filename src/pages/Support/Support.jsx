@@ -5,8 +5,8 @@ const Support = () => {
   return (
     <div>
       <DashboardHeader/>
-      <div className='  mt-[120px] mb-10 max-w-full z-50 lg:ml-[256px]   ml-0 ' style={{ width: '-webkit-fill-available' }}>
-        <div className="container px-4 flex items-center justify-center flex-col w-auto">
+      <div className=' flex flex-col items-center justify-center  mt-[120px] mb-10 max-w-full z-50 lg:ml-[256px]    ' style={{ width: '-webkit-fill-available' }}>
+      <div className="container px-4 flex items-center justify-center flex-col w-auto">
         <SupportMain/>
         </div>
 
